@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files (may contain secrets); keep any example template
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test and tool output
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Editor settings and folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
